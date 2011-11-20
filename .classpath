@@ -2,10 +2,17 @@
 <classpath>
 	<classpathentry excluding="views/**" kind="src" path="app"/>
 	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="cobertura-2.4"/>
+	<classpathentry kind="src" path="secure"/>
 	<classpathentry kind="src" path="crud"/>
 	
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/framework/play-1.2.4-RC2.jar" sourcepath="/home/xfernandez/programs/play-1.2.4-RC2/framework/src" />
+	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/modules/cobertura-2.4/lib/cobertura-main.jar"/>
+	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/modules/cobertura-2.4/lib/play-cobertura.jar"/>
+	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/modules/cobertura-2.4/lib/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/modules/cobertura-2.4/lib/asm-tree-3.0.jar"/>
+	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/modules/cobertura-2.4/lib/asm-3.0.jar"/>
 	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/framework/lib/ezmorph-1.0.3.jar"/>
 	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/framework/lib/commons-io-2.0.1.jar"/>
 	<classpathentry kind="lib" path="/home/xfernandez/programs/play-1.2.4-RC2/framework/lib/commons-lang-2.6.jar"/>

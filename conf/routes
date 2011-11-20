@@ -2,7 +2,17 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+# Import Secure routes
+*       /                  module:secure
+
+GET     /admin/myPosts/{id}                 Admin.form
+GET     /admin/new                          Admin.form
+POST    /admin/myPosts/{id}                 Admin.save
+POST    /admin/new                          Admin.save
+
+
 # Import CRUD routes
+GET    /admin/?           Admin.index
 *      /admin              module:crud
 
 # Home page
@@ -21,4 +31,6 @@ GET     /public/                                staticDir:public
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
+
+
 

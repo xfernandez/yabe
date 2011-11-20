@@ -41,4 +41,9 @@ public class User extends Model
         return email;
     }
 
+    static boolean authenticate(final String username, final String password)
+    {
+        return User.connect(username, password) != null;
+    }
+
 }
